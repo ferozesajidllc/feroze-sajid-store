@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <title>Feroze Sajid LLC — Contact</title>
+  <meta name="description" content="Feroze Sajid LLC, 5900 Balcones Dr 7942, Austin, TX 78731." />
+  <meta property="og:title" content="Feroze Sajid LLC" />
+  <meta property="og:description" content="5900 Balcones Dr 7942, Austin, TX 78731" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --ink: #1c1917; --muted: #78716c; --line: #e7e5e4; --paper: #fafaf9; }
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      min-height: 100vh; display: flex; flex-direction: column;
+      font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+      background: var(--paper); color: var(--ink); -webkit-font-smoothing: antialiased;
+    }
+    ::selection { background: var(--ink); color: #fff; }
+    header, footer { padding: 1.5rem clamp(1.25rem, 5vw, 4rem); }
+    header { display: flex; align-items: center; gap: .75rem; border-bottom: 1px solid var(--line); }
+    header img { width: 36px; height: 36px; }
+    header span { font-family: "Playfair Display", Georgia, serif; font-weight: 700; font-size: 1.15rem; }
+    main { flex: 1; display: grid; place-items: center; padding: 4rem clamp(1.25rem, 5vw, 4rem); }
+    .card { width: 100%; max-width: 560px; }
+    .eyebrow { text-transform: uppercase; letter-spacing: .2em; font-size: .75rem; font-weight: 600; color: var(--muted); }
+    h1 { font-family: "Playfair Display", Georgia, serif; font-size: clamp(2.25rem, 6vw, 3.5rem); line-height: 1.1; margin: .75rem 0 2.5rem; }
+    address { font-style: normal; border-top: 2px solid var(--ink); padding-top: 1.75rem; font-size: 1.125rem; line-height: 1.8; }
+    address strong { display: block; font-weight: 600; }
+    address .role { color: var(--muted); margin-bottom: 1rem; display: block; }
+    .map { display: inline-block; margin-top: 2rem; color: var(--ink); font-weight: 600; text-decoration: none; border-bottom: 1px solid var(--ink); padding-bottom: 2px; }
+    .map:hover { color: var(--muted); border-color: var(--muted); }
+    footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .875rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/logo.svg" alt="" />
+    <span>Feroze Sajid LLC</span>
+  </header>
+  <main>
+    <section class="card">
+      <p class="eyebrow">Contact</p>
+      <h1>Get in touch</h1>
+      <address>
+        <strong>Feroze Sajid LLC</strong>
+        <span class="role">Asad Ali, Sole Member</span>
+        5900 Balcones Dr 7942<br />
+        Austin, TX 78731
+      </address>
+      <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=5900+Balcones+Dr+7942+Austin+TX+78731" target="_blank" rel="noopener">View on map &rarr;</a>
+    </section>
+  </main>
+  <footer>&copy; <span id="y">2026</span> Feroze Sajid LLC. All rights reserved.</footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
